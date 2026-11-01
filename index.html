@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rivo - Fashion Store</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__inner">
+        <a href="#" class="logo">Rivo</a>
+        <nav class="nav">
+          <a class="nav__link" href="#" data-scroll="#home">HOME</a>
+          <a class="nav__link" href="#" data-scroll="#best-selling">SHOP</a>
+          <a class="nav__link" href="#" data-scroll="#features">FEATURES</a>
+          <a class="nav__link" href="#" data-scroll="#contact">CONTACT</a>
+        </nav>
+        <div class="header__actions">
+          <button class="icon-btn"><i class="fa-solid fa-bag-shopping"></i></button>
+          <button class="btn btn--outline">LOGIN</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <h1 class="hero__title">Discover and<br>Find Your Own<br>Fashion!</h1>
+        <p class="hero__subtitle">Explore our curated collection of stylish clothing and accessories tailored to your unique taste.</p>
+        <button class="btn btn--primary">EXPLORE NOW</button>
+      </div>
+      <div class="hero__image-wrapper">
+        <img src="images/%D0%B1%D0%B8%D0%B3%20%D1%84%D0%BE%D1%82%D0%BE%202.jpg" alt="Fashion Model" class="hero__img">
+      </div>
+    </div>
+  </section>
+
+  <!-- BEST SELLING -->
+  <section class="section" id="best-selling">
+    <div class="container text-center">
+      <h2 class="section-title">Best selling</h2>
+      <p class="section-subtitle">Get in on the trend with our curated selection of best-selling styles.</p>
+      
+      <div class="grid-3">
+        <div class="product-card">
+          
+          <div class="img-box"><img src="images/1%20%D1%84%D0%BE%D1%82%D0%BE.jpg"></div>
+          <h3>Regular Fit Long Sleeve Top</h3>
+          <p class="price">$38.99 <span class="divider">|</span> <span class="rating">5.0 <i class="fa-solid fa-star"></i></span></p>
+        </div>
+        <div class="product-card">
+          <div class="img-box"><img src="images/2%20%D1%84%D0%BE%D1%82%D0%BE.jpg" alt="Black Crop Tailored Jacket"></div>
+          <h3>Black Crop Tailored Jacket</h3>
+          <p class="price">$62.99 <span class="divider">|</span> <span class="rating">4.9 <i class="fa-solid fa-star"></i></span></p>
+        </div>
+        <div class="product-card">
+          <div class="img-box"><img src="images/3%20%D1%84%D0%BE%D1%82%D0%BE.jpg" alt="Textured Sunset Shirt"></div>
+          <h3>Textured Sunset Shirt</h3>
+          <p class="price">$49.99 <span class="divider">|</span> <span class="rating">5.0 <i class="fa-solid fa-star"></i></span></p>
+        </div>
+      </div>
+      <button class="btn btn--outline mt-4">See all <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  </section>
+
+  <!-- OUR PRODUCTS -->
+  <section class="section bg-light" id="shop">
+    <div class="container">
+      <h2 class="section-title text-center">Our products</h2>
+      
+      <div class="tabs">
+        <button class="tab active">SALE</button>
+        <button class="tab">HOT</button>
+        <button class="tab">NEW ARRIVALS</button>
+        <button class="tab">ACCESSORIES</button>
+      </div>
+
+      <div class="grid-4">
+        <div class="product-card">
+          <div class="img-box"><img src="images/%D1%84%D0%BE%D1%82%D0%BE%204.jpg" alt="Product"></div>
+          <h3>Spread Collar Shirt</h3>
+          <p class="price">$48.99 <span class="divider">|</span> <span class="rating">5.0 <i class="fa-solid fa-star"></i></span></p>
+        </div>
+        <div class="product-card">
+          <div class="img-box"><img src="images/%D1%84%D0%BE%D1%82%D0%BE%205.jpg" alt="Product"></div>
+          <h3>White Solid Formal Shirt</h3>
+          <p class="price">$39.00 <span class="divider">|</span> <span class="rating">4.9 <i class="fa-solid fa-star"></i></span></p>
+        </div>
+        <div class="product-card">
+          <div class="img-box"><img src="images/%D1%84%D0%BE%D1%82%D0%BE%206.jpg"></div>
+          <h3>Shine On Me Blouse</h3>
+          <p class="price">$42.99 <span class="divider">|</span> <span class="rating">4.8 <i class="fa-solid fa-star"></i></span></p>
+        </div>
+        <div class="product-card">
+          <div class="img-box"><img src="images/%D1%84%D0%BE%D1%82%D0%BE%207.jpg" alt="Product"></div>
+          <h3>Gray Solid Padded Jacket</h3>
+          <p class="price">$32.99 <span class="divider">|</span> <span class="rating">4.7 <i class="fa-solid fa-star"></i></span></p>
+        </div>
+        <div class="product-card">
+          <div class="img-box"><img src="images/%D1%84%D0%BE%D1%82%D0%BE%208.jpg" alt="Product"></div>
+          <h3>Printed Loose T-shirt</h3>
+          <p class="price">$39.99 <span class="divider">|</span> <span class="rating">5.0 <i class="fa-solid fa-star"></i></span></p>
+        </div>
+        <div class="product-card">
+          <div class="img-box"><img src="images/%D1%84%D0%BE%D1%82%D0%BE%209.jpg" alt="Product"></div>
+          <h3>Summer Wind Crop Shirt</h3>
+          <p class="price">$39.95 <span class="divider">|</span> <span class="rating">4.7 <i class="fa-solid fa-star"></i></span></p>
+        </div>
+        <div class="product-card">
+          <div class="img-box"><img src="images/3%20%D1%84%D0%BE%D1%82%D0%BE.jpg" alt="Product"></div>
+          <h3>Tailored Jacket</h3>
+          <p class="price">$46.00 <span class="divider">|</span> <span class="rating">4.9 <i class="fa-solid fa-star"></i></span></p>
+        </div>
+        <div class="product-card">
+          <div class="img-box"><img src="images/%D1%84%D0%BE%D1%82%D0%BE%2010.jpg" alt="Product"></div>
+          <h3>Solid Round Neck T-shirt</h3>
+          <p class="price">$36.00 <span class="divider">|</span> <span class="rating">5.0 <i class="fa-solid fa-star"></i></span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="container">
+      <div class="exclusive-banner">
+        <div class="exclusive-img">
+          
+          <img src="images/%D1%84%D0%BE%D1%82%D0%BE%20%D0%B1%D0%B8%D0%B3%20%D0%B1%D0%B8%D0%B3.png" alt="Exclusive">
+          <div class="dots-decoration light"></div>
+        </div>
+        <div class="exclusive-content">
+          <h2 class="section-title text-left">Exclusive offer</h2>
+          <p class="section-subtitle text-left">Unlock the ultimate style upgrade with our exclusive offer Enjoy savings of up to 40% off on our latest New Arrivals</p>
+          
+          <div class="timer" id="timer">
+            <div class="timer-box"><span id="days">06</span><small>Days</small></div>
+            <div class="timer-box"><span id="hours">18</span><small>Hours</small></div>
+            <div class="timer-box"><span id="mins">48</span><small>Min</small></div>
+          </div>
+
+          <button class="btn btn--primary">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESIGNER CLOTHES -->
+  <section class="section bg-light" id="features">
+    <div class="container text-center">
+      <h2 class="section-title">Designer Clothes For You</h2>
+      <p class="section-subtitle">Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!</p>
+      
+      <div class="grid-3">
+        <div class="product-card">
+          <div class="img-box"><img src="images/%D1%84%D0%BE%D1%82%D0%BE%2021.jpg"></div>
+          <h3>Accessories</h3>
+          <p class="desc">Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats.</p>
+        </div>
+        <div class="product-card">
+          <div class="img-box"><img src="images/%D1%84%D0%BE%D1%82%D0%BE%2022.jpg" alt="Dresses"></div>
+          <h3>Dresses</h3>
+          <p class="desc">Explore a stunning range of designer dresses, including evening gowns and chic day dresses.</p>
+        </div>
+        <div class="product-card">
+          <div class="img-box"><img src="images/%D1%84%D0%BE%D1%82%D0%BE%2023.jpg" alt="Outerwear"></div>
+          <h3>Outerwear</h3>
+          <p class="desc">Browse luxurious designer coats, jackets, and blazers to stay stylishly warm during colder seasons.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEEDBACK CORNER -->
+  <section class="section">
+    <div class="container text-center">
+      <h2 class="section-title">Feedback Corner</h2>
+      
+      <div class="grid-3 feedback-grid">
+        <div class="feedback-card">
+          <i class="fa-solid fa-quote-left quote-icon"></i>
+          <h3>Emily Wilson</h3>
+          <p>The customer experience was exceptional from start to finish. The website is user-friendly, the checkout process was smooth...</p>
+        </div>
+        <div class="feedback-card">
+          <i class="fa-solid fa-quote-left quote-icon"></i>
+          <h3>Sarah Thompson</h3>
+          <p>I absolutely love the quality and style of the clothing I purchased from this website. customer service was outstanding...</p>
+        </div>
+        <div class="feedback-card">
+          <i class="fa-solid fa-quote-left quote-icon"></i>
+          <h3>Olivia Martinez</h3>
+          <p>I had a great experience shopping on this website. The clothes I bought are fashionable and comfortable, highly satisfied!</p>
+        </div>
+      </div>
+      
+      <div class="slider-controls">
+        <button class="icon-btn"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="icon-btn active"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <div class="footer__col">
+        <a href="#" class="logo text-white">Rivo</a>
+        <p class="mt-2">Social Media</p>
+        <div class="socials">
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer__col">
+        <h4>SHOP</h4>
+        <ul>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Releases</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>COMPANY</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>STAY UP TO DATE</h4>
+        <div class="subscribe-form">
+          <input type="email" placeholder="Enter your email">
+          <button type="button">SUBMIT</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container footer__bottom">
+      <p>&copy; 2026 Rivo. All rights reserved.</p>
+      <div class="footer__links">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Cookies</a>
+      </div>
+    </div>
+  </footer>
+  
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+  <script src="app.js"></script>
+</body>
+</html>
